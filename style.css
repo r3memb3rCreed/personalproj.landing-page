@@ -48,22 +48,6 @@
     font-weight: 500;
 }
 
-.contain-top-left .contain-sign-up {
-    display: flex;
-    align-self: flex-start;
-    margin-top: 10px;
-    margin-left: 48px;
-    font-size: 16px;
-    font-weight: 900;
-}
-
-.contain-sign-up .item-text {
-    display: flex;
-    background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% );
-    border-radius: 10px;
-    padding: 10px;
-}
-
 
 
 .contain-top-right {
