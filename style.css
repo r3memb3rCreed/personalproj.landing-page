@@ -3,11 +3,24 @@
     padding: 0px;
 }
 
+img {
+    display: flex;
+    border-radius: 10px;
+    margin-top: 110px;
+    margin-left: 48px;
+    height: 300px;
+    width: 500px;
+    padding: 5px;
+    height: 300px;
+    width: 500px;
+    background-color: #002b84;
+}
+
 /* Top of our Website */
 .contain-top {
     display: flex;
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-    color: #F9FAF8;
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    color: #0018A8;
     width: 1370px;
     height: 600px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -67,21 +80,158 @@
     margin-left: 48px;
 }
 
+/* Middle of your Website */
 
+.contain-middle {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #000000;
+    width: 1370px;
+    height: 450px;
+}
 
+.contain-middle .header {
+    display: flex;
+    margin-left: 500px;
+    align-self: self-start;
+    margin-top: 14px;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #191970;
+}
 
-img {
+.boxes-container {
+    display: flex;
+    margin-left: 424px;
+    gap: 48px;
+    align-self: self-start;
+    
+}
+
+.boxes-container .item {
+    display: flex;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    border: 4px solid #00308F;
+}
+
+.subtext-container {
+    display: flex;
+    margin-left: 424px;
+    gap: 48px;
+    align-self: self-start;
+    color: #003399;
+}
+
+.subtext {
     display: flex;
     border-radius: 10px;
-    margin-top: 110px;
-    margin-left: 48px;
-    height: 300px;
-    width: 500px;
-    padding: 5px;
-    height: 300px;
-    width: 500px;
-    background-color: #002b84;
+    border: 4px solid #000000;
+    width: 160px;
+    text-align: center;
 }
+
+/* Quote Section */ 
+
+.section-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1370px;
+    height: 350px;
+    background-color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-quote .quote-container {
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+    height: 250px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.quote-container .quote {
+    font-size: 25px;
+    text-align: center;
+    color: #003399;
+}
+
+.section-quote .quoteOwner-container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-left: 475px;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.quoteOwner-container .owner-name {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #610000;
+}
+
+/* Call to Action */
+
+.final-container {
+    display: flex;
+    height: 250px;
+    width: 1370px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+}
+
+.callToAction-container {
+    display: flex;
+    border: 5px solid  #58111A;
+    border-radius: 14px;
+    background-color: #610000;
+    margin-top: 70px;
+    height: 150px;
+    width: 700px;
+    margin-left: 75px;
+}
+
+.callToAction-container .left-side {
+    display: flex;
+    height:145px;
+    width: 500px;
+    font-weight: bolder;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.callToAction-container .right-side {
+    display: flex;
+    height: 40px;
+    width: 120px;
+    margin-left: 320px;
+    margin-top: 60px;
+    margin-right: 10px;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    font-weight: bold;
+    border-radius: 10px;
+    color: black;
+    background-color:#610000
+}
+
+
+
+
 
 
 
