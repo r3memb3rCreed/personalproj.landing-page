@@ -16,6 +16,7 @@ img {
     background-color: #002b84;
 }
 
+
 /* Top of our Website */
 .contain-top {
     display: flex;
@@ -79,6 +80,24 @@ img {
     font-size: 18px;
     margin-left: 48px;
 }
+
+.link-holder .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 48px;
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 1.055rem;
+    border-radius: 10px;
+    border: 1px solid #002D62;
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+    color: #0018A8;
+    
+}
+
 
 /* Middle of your Website */
 
@@ -193,9 +212,8 @@ img {
 
 .callToAction-container {
     display: flex;
-    border: 5px solid  #b21f1f;
     border-radius: 14px;
-    background-color: #6f0000;
+    background-image: linear-gradient( 178.2deg,  rgba(118,8,23,1) 10.9%, rgba(158,12,33,1) 62.6% );
     margin-top: 70px;
     height: 150px;
     width: 700px;
@@ -206,7 +224,6 @@ img {
     display: flex;
     height:145px;
     width: 500px;
-    font-weight: bolder;
     text-align: center;
     flex-direction: column;
     align-items: center;
@@ -223,21 +240,30 @@ img {
     align-self: flex-start;
     justify-content: center;
     align-items: center;
-    border: 1px solid #414345;
+    
+}
+
+.new-link-holder .link {
+    display: flex;
+    height: 40px;
+    width: 90px;
     font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.055rem;
     border-radius: 10px;
-    color: #610000;
-    background-color: #232526
+    border: 2px solid red;
+    background-color: #620808;
 }
 
 .callToAction-container .header {
     font-size: 1.7rem;
-    font-weight: bold;
-    color: #b92b27
+    font-weight: bolder;
+    color: #200122
 }
 
 .callToAction-container .information {
-    color: #c31432;
+    color: #000000;
 }
 
 
